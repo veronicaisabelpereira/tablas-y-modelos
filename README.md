@@ -40,6 +40,13 @@ npm run dev
    - `PATCH /product/:id`: Modifica un producto existente según su ID.
    - `DELETE /product/:id`: Elimina un producto según su ID.
 
+## Tecnologías Utilizadas
+
+- ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white): Lenguaje de programación.
+- ![Express](https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white): Framework web para Node.js.
+- ![Sequelize](https://img.shields.io/badge/-Sequelize-52B0E7?style=flat-square&logo=sequelize&logoColor=white): ORM para Node.js.
+- ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white): Sistema de gestión de bases de datos relacional.
+
 ## Contribución
 
 Si deseas contribuir a este proyecto, sigue estos pasos:
@@ -55,4 +62,4 @@ Si deseas contribuir a este proyecto, sigue estos pasos:
 Este proyecto está bajo la Licencia [MIT](https://opensource.org/licenses/MIT).
 ```
 
-Este README proporciona la información esencial para instalar, ejecutar y contribuir al proyecto. Si necesitas agregar más detalles o cualquier otra información, ¡no dudes en hacerlo!
+Esto agrega etiquetas coloridas a las tecnologías utilizadas en el proyecto para una mejor visualización. Siéntete libre de ajustar los colores o agregar más tecnologías según sea necesario.
