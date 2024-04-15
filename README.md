@@ -1,7 +1,6 @@
-
 # API REST de Productos con Sequelize, TypeScript y Express
 
-Este proyecto es una pequeña API REST desarrollada con TypeScript y Express que utiliza Sequelize para interactuar con una base de datos y realizar operaciones CRUD (crear, leer, actualizar y borrar) sobre una entidad de productos.
+Este proyecto es una pequeña API REST desarrollada con TypeScript y Express que utiliza Sequelize para interactuar con una base de datos PostgreSQL y realizar operaciones CRUD (crear, leer, actualizar y borrar) sobre una entidad de productos.
 
 ## Requisitos
 
@@ -25,27 +24,21 @@ cd tu-repositorio
 npm install
 ```
 
-## Configuración
-
-1. Crea una base de datos PostgreSQL en tu sistema local.
-2. Copia el archivo `.env.example` y renómbralo a `.env`.
-3. En el archivo `.env`, configura las variables de entorno `DB_NAME`, `DB_USER`, `DB_PASSWORD`, `DB_HOST` y `DB_PORT` con los valores correspondientes para tu base de datos.
-
 ## Uso
 
-1. Para iniciar el servidor, ejecuta el siguiente comando:
+1. Para iniciar el servidor en modo de desarrollo, ejecuta el siguiente comando:
 
 ```bash
-npm start
+npm run dev
 ```
 
 2. Una vez que el servidor esté en funcionamiento, puedes hacer solicitudes HTTP a las siguientes rutas:
 
-   - `POST /products`: Crea un nuevo producto enviando un objeto JSON con los campos `precio` y `title`.
    - `GET /products`: Obtiene todos los productos.
-   - `GET /products/:productId`: Obtiene un producto específico según su ID.
-   - `PATCH /products/:productId`: Modifica un producto existente según su ID.
-   - `DELETE /products/:productId`: Elimina un producto según su ID.
+   - `POST /product`: Crea un nuevo producto enviando un objeto JSON con los campos `price` y `title`.
+   - `GET /product/:id`: Obtiene un producto específico según su ID.
+   - `PATCH /product/:id`: Modifica un producto existente según su ID.
+   - `DELETE /product/:id`: Elimina un producto según su ID.
 
 ## Contribución
 
@@ -62,5 +55,4 @@ Si deseas contribuir a este proyecto, sigue estos pasos:
 Este proyecto está bajo la Licencia [MIT](https://opensource.org/licenses/MIT).
 ```
 
-Este README proporciona una guía básica para configurar, usar y contribuir a tu proyecto. Recuerda personalizarlo según tus necesidades específicas y agregar cualquier otra información relevante que consideres necesaria.
-
+Este README proporciona la información esencial para instalar, ejecutar y contribuir al proyecto. Si necesitas agregar más detalles o cualquier otra información, ¡no dudes en hacerlo!
