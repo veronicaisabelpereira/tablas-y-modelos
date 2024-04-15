@@ -1,6 +1,4 @@
-Por supuesto, aquí tienes un ejemplo de cómo podría ser tu archivo `README.md` en Markdown para tu proyecto:
 
-```markdown
 # API REST de Productos con Sequelize, TypeScript y Express
 
 Este proyecto es una pequeña API REST desarrollada con TypeScript y Express que utiliza Sequelize para interactuar con una base de datos y realizar operaciones CRUD (crear, leer, actualizar y borrar) sobre una entidad de productos.
@@ -65,3 +63,4 @@ Este proyecto está bajo la Licencia [MIT](https://opensource.org/licenses/MIT).
 ```
 
 Este README proporciona una guía básica para configurar, usar y contribuir a tu proyecto. Recuerda personalizarlo según tus necesidades específicas y agregar cualquier otra información relevante que consideres necesaria.
+
